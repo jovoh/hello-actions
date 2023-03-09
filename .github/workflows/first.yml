@@ -22,4 +22,4 @@ jobs:
             - name: Step Three
               run: "ls"  
             - name: Step Four
-              run: Get-Service | Out-File “All_Services.txt”  
+              run: Get-Content -Path First.yml 
