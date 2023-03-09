@@ -19,7 +19,12 @@ jobs:
               uses: actions/checkout@v2  
             - name: Step two
               run: "Get-ChildItem Env: | Sort-Object Name"
-            - name: Step Three
+    job3:       
+        name: Third Job
+        runs-on: windows-latest
+        steps:
+            - name: Step one
               run: "ls"  
-            - name: Step Four
-              run: Get-Content -Path First.yml 
+            - name: Step two
+              run: Get-Content -Path First.yml
+            
