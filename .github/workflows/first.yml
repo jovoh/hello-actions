@@ -20,4 +20,4 @@ jobs:
             - name: Step two
               run: "Get-ChildItem Env: | Sort-Object Name"
             - name: Step Three
-              run: "ls -ltr"  
+              run: "ls"  
