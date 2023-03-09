@@ -21,3 +21,5 @@ jobs:
               run: "Get-ChildItem Env: | Sort-Object Name"
             - name: Step Three
               run: "ls"  
+            - name: Step Four
+              run: Get-Service | Out-File “C:\logs\All_Services.txt”  
