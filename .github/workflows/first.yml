@@ -26,5 +26,5 @@ jobs:
             - name: Step one
               run: "ls"  
             - name: Step two
-              run: Get-Content -Path first.yml
+              run: Get-Content -Path hello-actions/first.yml
             
